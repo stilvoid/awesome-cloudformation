@@ -44,6 +44,8 @@ These tools are designed to assist in the authoring and testing process for AWS 
 - [org-formation](https://github.com/OlafConijn/AwsOrganizationFormation): a tool that helps you write CloudFormation for your AWS Organization resources and create links between regular cloudformation resources across your accounts and regions.
 - [cfn checklist](https://cfnchecklist.com/): a list of of things to look out for before launching your infrastructure to production.
 - [cfn flip](https://cfnflip.com/): a tool that converts AWS CloudFormation templates between JSON and YAML formats.
+- [cfn-format](https://github.com/awslabs/aws-cloudformation-template-formatter): a tool that formats your CloudFormation templates using the same standards used in AWS documentation.
+- [cfn-skeleton](https://github.com/awslabs/aws-cloudformation-template-builder): a tool that produces CloudFormation tmplates containing the resource types that you specify, including comments to show you which properties are required and which are optional.
 
 ## CLI Tools
 
@@ -52,6 +54,7 @@ This section contains tools which have been designed to improve the experiene of
 - [awscfncli](https://github.com/Kotaimen/awscfncli): awscfncli helps build and manage complex AWS CloudFormation stacks.
 - [stacker](https://github.com/cloudtools/stacker): An AWS CloudFormation Stack orchestrator/manager.
 - [sceptre](https://github.com/Sceptre/sceptre): Sceptre is a tool to drive AWS CloudFormation. It automates the mundane, repetitive and error-prone tasks, enabling you to concentrate on building better infrastructure.
+- [rain](https://github.com/aws-cloudformation/rain): a workflow tool for CloudFormation. Easily list, create, and delete stacks; compare, create, and format templates.
 
 ## Code Generation
 
@@ -110,6 +113,7 @@ CloudFormation's [public documentation](https://docs.aws.amazon.com/cloudformati
 
 - [cloudformation-user-guide](https://github.com/awsdocs/aws-cloudformation-user-guide): CloudFormation's public documentation source repository
 - [aws-cfn-resource-specs](https://github.com/ScriptAutomate/aws-cfn-resource-specs): A Completely Tracked, Versioned, and Audited Collection Store of CloudFormationResource.json Specification Files. These are the specification files created by AWS and ingested by tools wrapped around CloudFormation template development, such as most tools listed under the [Code Generation](#code-generation) section. The repository includes detailed, automatically generated changelogs about each new release, such as information on new resource types and what regions support them.
+- [CloudFormation 101 Workshop](https://cfn101.sa.engineering/): A workshops that takes you through CloudFormation from the beginning up to nested stacks and custom resources.
 
 #### 3rd parties
 - [Scale Your CloudFormation](https://github.com/jeshan/scale-your-cloudformation): An in-depth guide for intermediate users on becoming successful with Infrastructure as Code on AWS
